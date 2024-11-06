@@ -1,0 +1,133 @@
+[
+  {
+    "ContainingType": "SimpleCRUD_JWTAuthn.Controllers.AccountController",
+    "Method": "GetRegistersName",
+    "RelativePath": "api/Account/GetRegistersName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleCRUD_JWTAuthn.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginingUser",
+        "Type": "SimpleCRUD_JWTAuthn.Model.Dto_s.LoginDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleCRUD_JWTAuthn.Controllers.AccountController",
+    "Method": "Register",
+    "RelativePath": "api/Account/Register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "NewUser",
+        "Type": "SimpleCRUD_JWTAuthn.Model.Dto_s.RegisterDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleCRUD_JWTAuthn.Controllers.ItemsController",
+    "Method": "AddItem",
+    "RelativePath": "api/Items/AddItem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Dto",
+        "Type": "SimpleCRUD_JWTAuthn.Model.Dto_s.ItemDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleCRUD_JWTAuthn.Controllers.ItemsController",
+    "Method": "DeleteItem",
+    "RelativePath": "api/Items/DeleteItem{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleCRUD_JWTAuthn.Controllers.ItemsController",
+    "Method": "EditItem",
+    "RelativePath": "api/Items/EditItem{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "item",
+        "Type": "SimpleCRUD_JWTAuthn.Model.Item",
+        "IsRequired": true
+      },
+      {
+        "Name": "Id",
+        "Type": "",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleCRUD_JWTAuthn.Controllers.ItemsController",
+    "Method": "ShowItems",
+    "RelativePath": "api/Items/ShowItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SimpleCRUD_JWTAuthn.Controllers.ItemsController",
+    "Method": "ShowItems",
+    "RelativePath": "api/Items/ShowItems{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
